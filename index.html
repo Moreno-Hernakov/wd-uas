@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- ----------[ Swiper's CSS ]---------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="assets/library/index.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="mycss.css">
 </head>
@@ -67,15 +71,26 @@
 
     <!-- -----------[ SECTION 2 ]----------- -->
     <div id="section2" class="container mt6">
-        <div class="d-flex justify-space-between gap2">
-            <div>
-                <img class="img-rounded" width="100%" src="assets/images/dummy.png" alt="">
-            </div>
-            <div>
-                <img class="img-rounded" width="100%" src="assets/images/dummy.png" alt="">
-            </div>
-            <div>
-                <img class="img-rounded" width="100%" src="assets/images/dummy.png" alt="">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="img-rounded img-carousel"  src="assets/images/dummy.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-rounded img-carousel"  src="assets/images/dummy.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-rounded img-carousel"  src="assets/images/dummy.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-rounded img-carousel"  src="assets/images/dummy.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-rounded img-carousel"  src="assets/images/dummy.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="img-rounded img-carousel"  src="assets/images/dummy.png" alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -101,5 +116,15 @@
     <!-- -----------[ END FOOTER ]----------- -->
     
 
+
+
+
+
+
+    <!-- ----------[ Swiper's js ]---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- ----------[ init library ]---------- -->
+     <script src="assets/library/index.js"></script>
 </body>
 </html>

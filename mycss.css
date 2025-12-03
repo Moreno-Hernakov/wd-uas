@@ -42,7 +42,11 @@
     max-width: 500px;
 }
 
-
+.img-carousel{
+    width: 100%;
+    height: auto;
+    max-width: 370px;
+}
 
 .card{
     background-color: white;
